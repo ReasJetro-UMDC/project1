@@ -7,7 +7,6 @@ import forms.complete;
 import forms.dashboard;
 import forms.history;
 import forms.revenue;
-import forms.weekly_records;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -21,7 +20,6 @@ public class main extends javax.swing.JFrame {
         
         dashboard = new dashboard();
         appointment = new appointment();
-        weekly = new weekly_records();
         complete = new complete();
         history = new history();
         revenue = new revenue();
@@ -39,7 +37,6 @@ public class main extends javax.swing.JFrame {
     
     private dashboard dashboard;
     private appointment appointment;
-    private weekly_records weekly;
     private complete complete;
     private history history;
     private revenue revenue;
