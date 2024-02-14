@@ -24,12 +24,11 @@ public class main extends javax.swing.JFrame {
         history = new history();
         revenue = new revenue();
         form_frames.setLayout(new BorderLayout());
-        
-        
+             
     }
     
     private void forms(Component com){
-        form_frames.removeAll();
+        form_frames.removeAll();//forms
         form_frames.add(com);
         repaint();
         revalidate();

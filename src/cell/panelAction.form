@@ -45,9 +45,12 @@
     <Component class="cell.actionButton" name="TAB_edit">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/icons/icons8-eye-24.png"/>
+          <Image iconType="3" name="/icons/eye_13949477 (1).png"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TAB_editActionPerformed"/>
+      </Events>
     </Component>
     <Component class="cell.actionButton" name="TAB_delete">
       <Properties>
